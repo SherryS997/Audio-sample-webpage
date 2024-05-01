@@ -1,0 +1,64 @@
+# gitignore for flask app
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# flask files
+static
+instance
+
+# Environment variables
+env
+
+# Virtual environment
+venv/
+.env/
+
+# Development and production database files
+*.sqlite
+*.db
+
+# IDE files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled Python files
+*.pyc
+
+# Logs and temporary files
+*.log
+*.pot
+*.potx
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+
+# Package files
+*.zip
+*.egg-info/
+*.egg
+dist/
+build/
+*.tar.gz
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Other generated files
+*.pyo
+*~
+__MACOSX/
+.DS_Store
